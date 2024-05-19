@@ -1,7 +1,7 @@
-import * as THREE from "https://esm.sh/three";
-import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.150.1/examples/jsm/controls/OrbitControls.js'
-import Stats from 'https://cdn.jsdelivr.net/npm/three@0.150.1/examples/jsm/libs/stats.module.js'
-import { GUI } from 'https://cdn.jsdelivr.net/npm/three@0.150.1/examples/jsm/libs/lil-gui.module.min.js'
+import * as THREE from './libs/three/three.module.js';
+import { OrbitControls } from './libs/three/controls/OrbitControls.js';
+import Stats from './libs/three/libs/stats.module.js';
+import { GUI } from './libs/three/libs/lil-gui.module.min.js'
 
 const scene = new THREE.Scene()
 
